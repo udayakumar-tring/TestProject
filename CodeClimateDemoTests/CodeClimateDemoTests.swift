@@ -30,4 +30,16 @@ class CodeClimateDemoTests: XCTestCase {
         }
     }
 
+    func testChildViewControllers() {
+        let viewController = UIViewController()
+        let firstChildViewController = UIViewController()
+        let secondChildViewController = UIViewController()
+
+        viewController.addChild(firstChildViewController)
+        XCTAssertEqual(viewController.children.count, 1)
+
+        viewController.addChild(secondChildViewController)
+        XCTAssertEqual(viewController.children.count, 2)
+    }
+
 }
