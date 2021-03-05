@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CodeClimateDemoTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5E62D91F25F1FBBC00D91255</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E62D93525F1FBBC00D91255</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E62D94025F1FBBC00D91255</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
