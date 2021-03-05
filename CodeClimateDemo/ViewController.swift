@@ -27,4 +27,8 @@ class ViewController: UIViewController {
         label.text = "I am a Label"
         self.view.addSubview(label)
     }
+
+    func functionWithMoreArgs(with arg1:Any, arg2:Any, arg3:Any, arg4:Any, arg5:Any) {
+        print(arg1,arg2,arg3,arg4,arg5)
+    }
 }
