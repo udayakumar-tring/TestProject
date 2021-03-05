@@ -10,16 +10,21 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-           super.viewDidLoad()
-           // Do any additional setup after loading the view.
-           setupLabel()
-       }
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        setupLabel()
+        setupLabel2()
+    }
 
-       func setupLabel() {
-           let label = UILabel(frame: CGRect(x: 100, y: 100, width: 100, height: 35))
-           label.text = "I am a Label"
-           self.view.addSubview(label)
-       }
+    func setupLabel() {
+        let label = UILabel(frame: CGRect(x: 100, y: 100, width: 100, height: 35))
+        label.text = "I am a Label"
+        self.view.addSubview(label)
+    }
 
+    func setupLabel2() {
+        let label = UILabel(frame: CGRect(x: 100, y: 100, width: 100, height: 35))
+        label.text = "I am a Label"
+        self.view.addSubview(label)
+    }
 }
-
